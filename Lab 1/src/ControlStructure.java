@@ -31,6 +31,27 @@ public class ControlStructure
 	
 	public static void primePrinter()
 	{
+		{
+			int count = 0;
+			int num = 1;
+			int a;
+
+				while(count < 50)
+				{
+					num++;
+					for( a = 2 ; a <= num - 1 ; a++)
+					{
+						if( num % a == 0) 
+						break;
+						
+					}
+				if( a >= num - 1)
+				{
+					System.out.println(num);
+					count++;
+				}
+			}
+		}
 	}
 }
 		
