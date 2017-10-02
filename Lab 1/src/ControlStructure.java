@@ -1,3 +1,4 @@
+//Nicholas Huynh Period 2 Lab 1.1
 public class ControlStructure 
 {
 	public static void main(String [] args)
